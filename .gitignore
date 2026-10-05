@@ -1,0 +1,17 @@
+# Backup copies of server.py
+*.bak
+*.bak2
+
+# Generated archive (the CLIENT_PRODUCTION_PACKAGE folder is versioned instead)
+CLIENT_PRODUCTION_PACKAGE.zip
+
+# Local install log from a real machine (contains a Windows username)
+INSTALLATORE CLIENT WINDOWS.txt
+
+# Build output
+build/
+dist/
+*.exe
+*.spec
+__pycache__/
+*.pyc

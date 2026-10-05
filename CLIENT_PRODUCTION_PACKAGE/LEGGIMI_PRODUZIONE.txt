@@ -1,0 +1,49 @@
+========================================================================
+ 💻 WINDOWS 11 STORAGE MONITOR - PACCHETTO DI PRODUZIONE CLIENT
+========================================================================
+
+Questo pacchetto contiene tutto il necessario per distribuire il client
+sui PC Windows 11 della tua rete.
+
+Durante l'installazione ti verra' chiesto l'indirizzo del server
+(es. http://192.168.1.100:8080). Viene salvato in:
+   %LOCALAPPDATA%\WindowsStorageMonitor\server_url.txt
+
+------------------------------------------------------------------------
+📦 METODO 1 — PRIMO PC (compila l'exe dal sorgente):
+------------------------------------------------------------------------
+1. Copia l'intera cartella 'CLIENT_PRODUCTION_PACKAGE' sul PC.
+2. Fai doppio-click su:
+   👉 INSTALLA_PRODUZIONE.bat
+   Questo compila il .cs -> .exe e configura l'avvio automatico.
+
+3. Recupera l'exe compilato da:
+   C:\Users\<utente>\AppData\Local\WindowsStorageMonitor\StorageMonitorClient.exe
+
+------------------------------------------------------------------------
+⚡ METODO 2 — ALTRI PC (usa l'exe gia' compilato, piu' veloce):
+------------------------------------------------------------------------
+Dopo aver compilato l'exe sul primo PC, per tutti gli altri basta:
+1. Copia nella stessa cartella:
+   - StorageMonitorClient.exe  (quello compilato dal primo PC)
+   - INSTALLA_RAPIDO.bat
+2. Fai doppio-click su:
+   👉 INSTALLA_RAPIDO.bat
+   Nessuna compilazione, installa e avvia subito!
+
+------------------------------------------------------------------------
+🧹 COSA VIENE MONITORATO IN TEMPO REALE:
+------------------------------------------------------------------------
+1. Tutti i dischi fissi locali (C:, D:, ecc.) -> GB usati, liberi e %
+2. Temp Utente (%TEMP% -> C:\Users\<user>\AppData\Local\Temp)
+3. Temp di Sistema (C:\Windows\Temp)
+4. Cestino di Windows (C:\$Recycle.Bin)
+5. Cache degli aggiornamenti Windows Update (C:\Windows\SoftwareDistribution\Download)
+6. File di Log di sistema (C:\Windows\Logs)
+
+------------------------------------------------------------------------
+🗑️ COME DISINSTALLARE IL CLIENT DA UN PC:
+------------------------------------------------------------------------
+Fai doppio-click su:
+👉 DISINSTALLA_CLIENT.bat
+========================================================================
